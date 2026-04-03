@@ -47,4 +47,6 @@ app.*.map.json
 
 json 
 gentle_church/.firebaserc
-gentle_church/android/app/google-services.json
+/android/app/google-services.json
+
+firebase.json
