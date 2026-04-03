@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gentle Church - Open the App</title>
+    <script>
+        // Try to open the app
+        window.location.href = 'gentlechurch://login?link=' + encodeURIComponent(window.location.href);
+        
+        // If app doesn't open, redirect to Play Store after 2 seconds
+        setTimeout(function() {
+            window.location.href = 'https://play.google.com/store/apps/details?id=com.localcode.gentle_church';
+        }, 2000);
+    </script>
+</head>
+<body>
+    <h2>Opening Gentle Church App...</h2>
+    <p>If the app doesn't open, <a href="https://play.google.com/store/apps/details?id=com.localcode.gentle_church">download it from the Play Store</a>.</p>
+</body>
+</html>

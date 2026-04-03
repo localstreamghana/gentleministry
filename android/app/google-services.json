@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "119040493120",
+    "project_id": "gentle-ministry",
+    "storage_bucket": "gentle-ministry.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119040493120:android:709d8569b275b103db01a5",
+        "android_client_info": {
+          "package_name": "com.localcode.gentle_church"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119040493120-cq8nb3r2vcr7fsqog8gmtbl0kpcomef1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.localcode.gentle_church",
+            "certificate_hash": "8d45a3efb3da8bc01993debf10a1db1eb7ee4916"
+          }
+        },
+        {
+          "client_id": "119040493120-slmrlansfcvr8nbrq1mnk39d2tapj0a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJdCefI0wP3zlB3sBrD8hiXX7bJgNSahs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119040493120-slmrlansfcvr8nbrq1mnk39d2tapj0a6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119040493120-34coqi6glr21u0bti0c0m1k41tnd193g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localcode.gentleChurch"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
